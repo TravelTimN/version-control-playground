@@ -16,7 +16,7 @@ In the Terminal, type:
 Example:
 - `git rebase -i HEAD~5`
 
-For each commit message you want to change, replace the word pick at the `start` with `reword`.
+For each commit message you want to change, replace the word `pick` at the start with `reword`.
 
 Example:
 
@@ -28,7 +28,7 @@ pick f06170d Add starter CSS styles
 reword 6c2f44a Add footer details and link to CSS
 ```
 
-*As you can see, I've selected two previous commit messages to reword.*
+*As you can see, I've selected two previous commit messages to `reword`.*
 
 Save the file, and then close it.
 
